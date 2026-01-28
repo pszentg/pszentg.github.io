@@ -22,7 +22,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
+  build:
+    # omitted
+
   deploy:
     environment:
       name: github-pages
