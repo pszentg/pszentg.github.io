@@ -23,8 +23,9 @@ concurrency:
 
 jobs:
   build:
-    # omitted
+    #not needed for static site deployment
 
+  # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
